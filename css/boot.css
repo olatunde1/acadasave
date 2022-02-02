@@ -1,0 +1,229 @@
+body{
+    /* background-color: #f2f2f2; */
+    padding: 0;
+    margin: 0;
+  
+}
+
+
+.container{
+    /* width: auto; */
+    max-width: 1024px; 
+    margin: 0 auto;
+}
+
+
+section {position:relative; display: block;}
+
+
+/* ******************************* H E A D E R   S E C T I O N  F O R M A T ***************** */
+
+.header-cover{padding-top: 20px;}
+
+/* ******************************* C A P T I O N   S E C T I O N  F O R M A T ***************** */
+
+.caption {padding-top: 80px;}
+.caption .main-caption {padding-right: 20px;}
+.caption .main-caption h2 {font-weight: bold; font-size: 44px; line-height: auto;color: #270049; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.caption .main-caption p {font-weight: normal; font-size: 12px; line-height: auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #222;}
+.caption .caption-img img {width: 100%;height: auto;}
+.caption .btn {background:#725ac1; padding: 10px 40px; font-size: 12px; border: none;} 
+
+@media(max-width:100%){
+    .caption-img img{
+        width: 100%;
+        height: auto;
+    }
+}
+/* ******************************** H O W   I T  W O R K S   S E C T I O N   F O R M A T ******************/
+
+
+.how-it-works {
+    position: relative;
+    background-color: #f3f4f5;
+}
+.how-it-works .explain-caption h3{font-weight: bold; font-size: 28px;color: #270049;}
+.how-it-works .card{ padding: 40px 20px; border-bottom-color:#fc8981;border-bottom-width: 6px; border-radius: 20px 20px 0px 0px;}
+.how-it-works .card {margin-bottom: 40px; margin-top: 20px;}
+.how-it-works .card-body h5{text-align: center;font-weight: bold; color:#270049;font-size: 15px;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+.how-it-works .card-body p{text-align:center;color:#b8b8b8;line-height: auto;}
+
+.how-it-works img {height:100px; width: auto; margin: 0px auto;}
+/* .how-it-works .card-footer{background-color: #fe7066;width: auto;} */
+
+
+/* **********************************  A C C E S S  L O A N  S E C T I O N  F O R M A T  ***************/ 
+
+
+.access-loan {padding-top: 80px;margin-bottom: 60px;}
+.access-loan .loan-caption {padding-right: 20px;}
+.access-loan .loan-caption h2 {font-weight: bold; font-size: 24px; line-height: auto;color: #270049; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.access-loan .question {font-weight: bold;width: 100%; text-align:right; 
+                        font-size: 20px; line-height: auto; font-family: 'Segoe UI', 
+                        Tahoma, Geneva, Verdana, sans-serif;color: #270049;
+                        margin-right: 0;}
+.access-loan .loan-caption p {font-weight: normal; font-size: 15px; line-height: auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #b8b8b8;}
+.access-loan .loan-img img {width: 100%;}
+.access-loan .btn {background:#725ac1; padding: 10px 40px; font-size: 12px; border: none;} 
+
+
+/* **********************************  I N T E R N   A C C E S S   S E C T I O N  F O R M A T  ***************/ 
+
+.intern-access {padding-top: 20px;margin-bottom: 60px;}
+.intern-access .intern-caption {padding-right: 20px;padding-top: 260px;padding-left: 120px;}
+.intern-access .intern-caption h2 {font-weight: bold; font-size: 24px; line-height: auto;color: #270049; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.intern-access .intern-caption p {font-weight: normal; font-size: 15px; line-height: auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #b8b8b8;}
+.intern-access .intern-img img {width: 100%;}
+.intern-access .btn {background:#725ac1; padding: 10px 40px; font-size: 12px; border: none;} 
+
+/* ********************************** I N T E R E S T  R A T E   S E C T I O N  F O R M A T  ***************/ 
+.interest-rate {padding-top: 60px;padding-left: 150px;margin-bottom: 80px;}
+.interest-rate .dedicated-rate {padding-right: 150px;padding-top: 50px ;}
+.interest-rate .dedicated-rate h2 {font-weight:normal;font-size: 30px; line-height: auto;color: #270049; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.interest-rate .dedicated-rate p {font-weight: normal; font-size: 15px; line-height: auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #222;}
+.interest-rate .interest-img img {width: 100%; padding-right: 30px;}
+.interest-rate .btn {background:#725ac1; padding: 10px 40px; font-size: 12px; border: none;} 
+
+/* ********************************** P A C K A G E S   S E C T I O N   F O R M A T  ***************/ 
+.packages{position: relative; display: block;}
+.packages .package-list1{box-sizing: border-box;}
+.packages .card{margin:20px; float: left;min-height: 500px;box-shadow: 10px 10px 10px rgb(0, 0, 0,.15);}
+.packages .card-header{text-align: center;color: white;}
+.packages .package-list p{text-align: center; color:dimgray;font-size: 15px;}
+.packages .package-list span{color: #270049;font-weight: 500;}
+.packages .btn{background-color: #725ac1;border: none; position: absolute;margin-left: 20px;padding: auto;}
+.packages .card-header-color{background-color: pink;}
+.packages .card-header-color2{background-color:rgb(0, 0, 255)}
+.packages .card-header-color3{background-color: #fd4c3f;}
+.packages hr{background-color: #f2f2f2;}
+.packages h2{text-align: center;color: #270049;padding-bottom: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif
+ }
+
+ body {
+     background: linear-gradient(to bottom, #000428, #004683);
+     animation: background-color 20s;
+     min-height: 100vh
+ }
+
+ @keyframes background-color {
+     0% {
+         background: linear-gradient(to bottom, #000428, #004683)
+     }
+
+     25% {
+         background: linear-gradient(135deg, #1a4223, #5ee95e)
+     }
+
+     50% {
+         background: linear-gradient(to bottom, #421a31, #e95ed2)
+     }
+
+     100% {
+         background: linear-gradient(-135deg, #fae37d, #881da8, #20668f)
+     }
+ }
+
+ .container {
+     margin-top: 80px
+ }
+
+ .container .col-lg-4 {
+     display: flex;
+     justify-content: center
+ }
+
+ .card {
+     width: 300px;
+     height: 300px;
+     transform-style: preserve-3d;
+     perspective: 500px;
+     border: none;
+     background-color: inherit
+ }
+
+ .card .face {
+     position: absolute;
+     color: #fff;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+     border-radius: 15px;
+     background: rgba(255, 255, 255, 0.06);
+     transform-style: preserve-3d;
+     transition: 0.5s;
+     backface-visibility: hidden;
+     border-top: 1px solid #ddd;
+     border-left: 1px solid #ddd
+ }
+
+ .card .face.front-face,
+ .card .face.back-face {
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center
+ }
+
+ .card .face.front-face .profile {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     object-fit: cover
+ }
+
+ .card .face.front-face .name {
+     letter-spacing: 2px
+ }
+
+ .card .face.front-face .designation {
+     font-size: 0.8rem;
+     color: #ddd;
+     letter-spacing: 0.8px
+ }
+
+ .card:hover .face.front-face {
+     transform: rotateY(180deg)
+ }
+
+ .card .face.back-face {
+     position: absolute;
+     background: rgba(255, 255, 255, 0.06);
+     transform: rotateY(180deg);
+     padding: 20px 30px;
+     text-align: center;
+     user-select: none
+ }
+
+ .card .face.back-face .fa-quote-left {
+     position: absolute;
+     top: 25px;
+     left: 25px;
+     font-size: 1.2rem
+ }
+
+ .card .face.back-face .fa-quote-right {
+     position: absolute;
+     bottom: 35px;
+     right: 25px;
+     font-size: 1.2rem
+ }
+
+ .card:hover .face.back-face {
+     transform: rotateY(360deg)
+ }
+
+ @media(max-width: 991.5px) {
+     .col-lg-4 {
+         margin-top: 40px;
+         margin-bottom: 20px
+     }
+ } */
